@@ -3,11 +3,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>About Me</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee Inline" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Maven Pro" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Bungee Shade" rel="stylesheet">
+	<script src="myscript.js"></script>
 </head>
 
 <style>
@@ -25,11 +26,23 @@ p
 {
 	font-family: 'Maven Pro'
 }
+
+li
+{
+	font-family: 'Maven Pro'
+}
 </style>
 
 <body>
 	<div id="nav">
-	test
+		<a href="#bio">Bio</a>
+		<a href="#courses">Courses</a>
+		<a href="#languages">Programming Languages</a>
+		<a href="#tech">Technology</a>
+		<a href="#experience">Experience</a>
+		<a href="#projects">Side Projects</a>
+		<a href="#hobbies">Hobbies</a>
+		<a href="contact.html">Contact</a>
 	</div>
 
 	<div class="center">
@@ -37,19 +50,37 @@ p
 		<h1><u>Thomas Wrobel</u></h1>
 		<img src="https://i.imgur.com/FdmfxXG.jpg" style="width: 45%">
 		
-		<h2><b>Bio</b></h2>
+		<h2 id="bio"><b>Bio</b></h2>
 		<p>I completed my Bachelor's in Computer Science at the University of St. Thomas in 2019.
 		My passion for this subject is from learning about constantly developing 
 		technologies and growing my problem solving skills. Tackling practical issues and
 		creating solutions for businesses and for people cultivates a lot of meaning and
 		purpose for me.
 		</p>
-		</br>
 		
-		<h2><b>College and Professional Courses</b></h2>
-		<p>TODO make table with data from the UST classes website, and add any other things like A+ cert, AWS, etc</p>
+		<h2 id="courses"><b>College and Professional Courses</b></h2>
+		<table>
+			<tr>
+				<td>Python Programming</td>
+				<td>Java Object Oriented Design</td>
+				<td>Data Structures</td>
+				<td>Operating Systems</td>
+			</tr>
+			<tr>
+				<td>Computer Architecture</td>
+				<td>Web Development</td>
+				<td>AI & Robotics</td>
+				<td>Statistics With R</td>
+			</tr>
+			<tr>
+				<td>Multiple Linear Regression</td>
+				<td>Information Security</td>
+				<td>Advanced Security</td>
+				<td>Discrete Mathematics</td>
+			</tr>
+		</table>
 		
-		<h2><b>Programming Languages</b></h2>
+		<h2 id="languages"><b>Programming Languages</b></h2>
 		<table>
 			<tr>
 				<td>Python</td>
@@ -68,12 +99,19 @@ p
 			</tr>
 		</table>
 		
-		<h2><b>Technologies</b></h2>
-		<table>
-			
-		</table>
+		<h2 id="tech"><b>Technologies</b></h2>
+		<ul>
+			<li>GitHub</li>
+			<li>Bitbucket</li>
+			<li>Slack</li>
+			<li>Discord</li>
+			<li>Microsoft Suite</li>
+			<li>Favorite Editors: Eclipse, Notepad++, Visual Studio</li>
+			<li>Linux</li>
+			<li>AWS</li>
+		</ul>
 		
-		<h2><b>Professional Experience</b></h2>
+		<h2 id="experience"><b>Professional Experience</b></h2>
 		<ul>
 			<li>Korn Ferry</li>
 				<ul>
@@ -96,12 +134,15 @@ p
 				</ul>
 		</ul>
 		
-		<h2><b>Side Projects</b></h2>
+		<h2 id="projects"><b>Side Projects</b></h2>
 		<ul>
-			
+			<li>Editing WeakAuras for World of Warcraft (requires lua code)</li>
+			<li>Creating Discord Bots</li>
+			<li>Small Photoshop and Sony Vegas projects</li>
+			<li>Building, configuring, and managing various local gaming servers</li>
 		</ul>
 		
-		<h2><b>Hobbies, Activities, and More</b></h2>
+		<h2 id="hobbies"><b>Hobbies, Activities, and More</b></h2>
 		<p>
 		Some activities I currently enjoy are watersports, hiking, video games, and music.
 		I play electric/upright bass for the university Jazz band and participate in several
