@@ -28,6 +28,30 @@ li
 	font-size: 2rem
 }
 
+#expander {
+	display: none;
+}
+
+.spoiler .expander:before {
+	content: '[Show Certification]'
+}
+
+.spoiler #expand {
+	display: none;
+}
+
+.spoiler #expand:checked + .expander:before {
+	content: '[Hide Certification]';
+}
+
+.spoiler #expand:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler .spoiler-content {
+	display: none;
+}
+
 .center
 {
 	max-width: 70%;
